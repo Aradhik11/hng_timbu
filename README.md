@@ -9,7 +9,10 @@ A simple application that demonstrates list of product from an API.
 ![Screenshot 2](screenshots/Screenshot3.png)
 
 ## Apk Download
-- [Download link](https://drive.google.com/file/d/1ornnXu42UtIKn1k6WgbeL49iQMV_1_jK/view?usp=sharing)
+- [Download link](https://drive.google.com/file/d/1FaMQaapSSSi-UNgq0Qyf4yFDXbzkde8N/view?usp=sharing)
+
+## Appetize Link
+- [Download link](https://appetize.io/app/b_irob2cz3rzlj3pttmvsomdxrne)
 
 ### Prerequisites
 
