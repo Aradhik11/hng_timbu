@@ -49,7 +49,7 @@ class _HomeViewState extends State<HomeView> {
               ),
               Expanded(
                 child: ListView.builder(
-                  scrollDirection: Axis.horizontal,
+                    scrollDirection: Axis.horizontal,
                     itemCount: product.length,
                     itemBuilder: (_, index) {
                       final realProduct = product[index];
@@ -60,7 +60,7 @@ class _HomeViewState extends State<HomeView> {
                           padding: const EdgeInsets.symmetric(horizontal: 7),
                           child: Container(
                             width: 150,
-                            height: 206,
+                            height: 180,
                             padding: const EdgeInsets.symmetric(horizontal: 20),
                             decoration: BoxDecoration(
                                 color: Colors.white,
@@ -99,15 +99,6 @@ class _HomeViewState extends State<HomeView> {
                                         color: Color(0xfff0c100),
                                         fontWeight: FontWeight.w600),
                                   ),
-                                  const SizedBox(
-                                    height: 20,
-                                  ),
-                                  GestureDetector(
-                                    onTap: () {
-                                      // widget.addToCart(product);
-                                    },
-                                    child: const Text('ADD TO CART'),
-                                  )
                                 ],
                               ),
                             ),
@@ -116,7 +107,6 @@ class _HomeViewState extends State<HomeView> {
                       );
                     }),
               ),
-              
               const Align(
                   alignment: Alignment.topLeft,
                   child: Text('Regular',
@@ -127,7 +117,7 @@ class _HomeViewState extends State<HomeView> {
               ),
               Expanded(
                 child: ListView.builder(
-                  scrollDirection: Axis.horizontal,
+                    scrollDirection: Axis.horizontal,
                     itemCount: product.length,
                     itemBuilder: (_, index) {
                       final realProduct = product[index];
@@ -138,7 +128,7 @@ class _HomeViewState extends State<HomeView> {
                           padding: const EdgeInsets.symmetric(horizontal: 7),
                           child: Container(
                             width: 150,
-                            height: 206,
+                            height: 180,
                             padding: const EdgeInsets.symmetric(horizontal: 20),
                             decoration: BoxDecoration(
                                 color: Colors.white,
@@ -177,15 +167,7 @@ class _HomeViewState extends State<HomeView> {
                                         color: Color(0xfff0c100),
                                         fontWeight: FontWeight.w600),
                                   ),
-                                  const SizedBox(
-                                    height: 20,
-                                  ),
-                                  GestureDetector(
-                                    onTap: () {
-                                      // widget.addToCart(product);
-                                    },
-                                    child: const Text('ADD TO CART'),
-                                  )
+                                 
                                 ],
                               ),
                             ),
