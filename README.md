@@ -1,16 +1,31 @@
 # hng_stage_two
 
-A new Flutter project.
+A simple application that demonstrates list of product from an API.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+![Screenshot 1](screenshots/Screenshot1.png)
+![Screenshot 2](screenshots/Screenshot2.png)
+![Screenshot 2](screenshots/Screenshot3.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Apk Download
+- [Download link](https://drive.google.com/file/d/1ornnXu42UtIKn1k6WgbeL49iQMV_1_jK/view?usp=sharing)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You need to have the following software installed on your machine:
+
+- [Dart SDK](https://dart.dev/get-dart)
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) (if using Flutter)
+
+### Installing
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Aradhik11/hng_timbu.git
+cd hng_timbu.git
+
+
+
+
