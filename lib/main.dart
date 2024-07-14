@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hng_stage_two/dashboard/home_view.dart';
+import 'package:hng_stage_two/dashboard/dashboard.dart';
+
 
 void main() {
+  
   runApp(const MyApp());
 }
 
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: HomeView()
+      home: Dashboard()
     );
   }
 }
